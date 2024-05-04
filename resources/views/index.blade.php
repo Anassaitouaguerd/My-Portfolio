@@ -49,7 +49,7 @@
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
             src="/assets/img/{{$informations->image}}"
-            alt=""
+            alt="Anass Ait Ouaguerd"
           />
         </span>
       </a>
@@ -82,6 +82,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cv">Download CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cantact">Contact - Me</a>
           </li>
         </ul>
       </div>
@@ -279,6 +285,24 @@
           </ul>
         </div>
       </section>
+      <section
+      class="resume-section p-3 p-lg-5 d-flex flex-column"
+      id="cv"
+    >
+      <div class="my-auto" style="
+      margin: 33%;
+  ">
+        <h2 class="mb-5">Download My CV</h2>
+        <a href="/Generate-PDF">
+
+        <button class="badge bg-primary p-3 text-light w-100 mt-2" style="cursor: pointer">
+          download My CV
+        </button>
+      </a>
+
+      </div>
+
+    </section>
     </div>
 
     <!-- Bootstrap core JavaScript -->
